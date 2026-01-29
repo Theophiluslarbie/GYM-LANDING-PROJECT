@@ -296,5 +296,20 @@ h5 {
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),-10px -6px 10px -1px rgba(255, 255, 255, 0.7);
     padding: 5px 0;
 }
+.text8 {
+    color: white;
+  }
+  input {
+    width: 290px;
+    border: none;
+    margin: auto;
+    margin-left: 10px;
+  }
+  .button10 {
+    border: none;
+  }
+  .fa-brands {
+    background-color: white;
+  }
 
 
