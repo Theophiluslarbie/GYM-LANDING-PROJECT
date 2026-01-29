@@ -1,0 +1,300 @@
+/* Importing google fontawesome  */
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap'); 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: black;
+}
+.navbar {
+    background-color: white;
+}
+.navbar-brand {
+    margin-left: 150px;
+    padding: 10px;
+}
+.navbar-nav {
+    gap: 50px;
+    backdrop-filter: blur(20px); 
+    padding: 10px;
+    font-weight: 500;   
+}
+.navbar-nav li {
+    font-weight: 500;
+}
+.navbar-nav li:hover {
+    background-color: rgb(223, 128, 13);
+    transition:  5s;
+    color: rgb(46, 9, 116);
+    border-radius: 30px;
+}
+.button-bar {
+    width: 90px;
+    padding: 5px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: green;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+}
+
+ .hero-section {
+    background-color: white;
+    padding: 15px;
+}
+.text1 {
+    font-size: 1rem;
+    font-weight: 750;
+    background-color: green;
+    margin-right: 85px;
+}
+.main-img {
+    padding: 20px;
+}
+h2 {
+    font-size: 2.7rem;
+    padding: 7px;
+    font-weight: 700;
+}
+.text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.button1 {
+    width: 90px;
+    padding: 5px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: green;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+.customer-gallery {
+    padding: 20px;
+}
+.testimo1 {
+    width: 30px;
+}
+.testimo2 {
+    width: 30px;
+} 
+.testimo3 {
+    width: 30px;
+} 
+.testimo4 {
+    width: 30px;
+} 
+.text3 {
+    width: 80px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 30px;
+}
+.card {
+    padding: 10px;
+    height: 320px;
+    padding: 10px;
+}
+.card-inner {
+    height: 120px;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: -1px 2px 14px -1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: -1px 2px 14px -1px rgba(0,0,0,0.9);
+    -moz-box-shadow: -1px 2px 14px -1px rgba(0,0,0,0.9);
+    background-color: rgb(134, 132, 128);
+}
+
+h3 {
+    padding: 5px;
+}
+.count1 {
+    padding: 5px; 
+    border-radius: 20px;
+    margin-left: 30px;
+    width: 60px;
+    background-color: white;  
+}
+.count2 {
+    color: white;
+}
+.card-hero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: honeydew;
+}
+.container-good {
+    background-color: rgb(233, 169, 190);
+}
+.card-img {
+    padding: 10px;
+    border-radius: 15px;
+}
+.card-body {
+    padding: 10px;
+}
+h4 {
+    font-size: 2rem;
+    padding: 5px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.text4 {
+    margin: auto;
+    margin-left: 15px;
+}
+.unordered-list {
+    list-style-type: circle;
+    padding: 10px;
+    margin-top: 30px;
+}
+.btn4 {
+    margin-left: 30px;
+    height: 33px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    border: 1px solid black;
+    background-color: white;
+}
+.container-mass {
+    background-color: rgb(240, 235, 235);
+    padding: 20px;
+}
+.p-title {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.button5 {
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+}
+h5 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.link-button {
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    align-content: center;
+}
+.button6 {
+    display: flex;
+    padding: 5px;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 0cqmax;
+    border-radius: 10px;
+}
+.tes-nial {
+    color: white;
+    background: #ff0000;
+    background: linear-gradient(186deg,#ff0000 0%, #062006 80%);
+    background: -webkit-linear-gradient(186deg,#ff0000 0%, #062006 80%);
+    background: -moz-linear-gradient(186deg,#ff0000 0%, #062006 80%);
+    border-radius: 20px;
+    font-weight: 700;
+    box-shadow: 10px;
+    padding: 7px;
+}
+.card-multiple {
+    z-index: 10px;
+    position: relative;
+    border: 1px solid black;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(214, 22, 134);
+}
+.card-first-2 {
+    color: white;
+    background: #ff0000;
+    background: linear-gradient(248deg,#ff0000 0%, #ffff00 40%, #0050ff 40%, #2a2639 80%);
+    background: -webkit-linear-gradient(248deg,#ff0000 0%, #ffff00 40%, #0050ff 40%, #2a2639 80%);
+    background: -moz-linear-gradient(248deg,#ff0000 0%, #ffff00 40%, #0050ff 40%, #2a2639 80%);
+    padding: 5px;
+    border-radius: 20px;
+}
+.card-first-3 {
+    color: wheat;
+    background: #ff0000;
+    background: linear-gradient(248deg,#ff0000 0%, #ffff00 40%, #3cff00 40%, #2a2639 80%);
+    background: -webkit-linear-gradient(248deg,#ff0000 0%, #ffff00 40%, #3cff00 40%, #2a2639 80%);
+    background: -moz-linear-gradient(248deg,#ff0000 0%, #ffff00 40%, #3cff00 40%, #2a2639 80%);
+    padding: 5px;
+    border-radius: 20px;
+}
+.card-first-4 {
+    background: #1e1d2a;
+    background: linear-gradient(164deg,#1e1d2a 0%, #be9886 40%, #223998 40%, rgba(80,29,175,0.31) 80%);
+    background: -webkit-linear-gradient(164deg,#1e1d2a 0%, #be9886 40%, #223998 40%, rgba(80,29,175,0.31) 80%);
+    background: -moz-linear-gradient(164deg,#1e1d2a 0%, #be9886 40%, #223998 40%, rgba(80,29,175,0.31) 80%);
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 30px;
+    border-radius: 20px;
+}
+.accordion p {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    padding: 5px;
+    border: #3cff00;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 700;
+}
+.accordion h6 {
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+.accordion-button::after {
+    content: '';
+}
+.card-section {
+    background-color: #b2b1be;
+    border-radius: 10px;
+    padding: 5px;
+}
+.accordion .accordion-button {
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),-10px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 5px 0;
+}
+
+
