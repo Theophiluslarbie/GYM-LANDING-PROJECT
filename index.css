@@ -288,9 +288,9 @@ h5 {
     content: '';
 }
 .card-section {
-    background-color: #b2b1be;
+    /* background-color: #5e5997; */
     border-radius: 10px;
-    padding: 5px;
+    padding: 3px;
 }
 .accordion .accordion-button {
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),-10px -6px 10px -1px rgba(255, 255, 255, 0.7);
@@ -307,9 +307,33 @@ h5 {
   }
   .button10 {
     border: none;
-  }
-  .fa-brands {
-    background-color: white;
-  }
+}
+.op-1 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 5px;
+    text-align: center;
+}
+.links {
+    display: flex;
+    gap: 30px;
+    margin-left: 90px;
+}
+.links li {
+    font-size: 1rem;
+    font-weight: 400;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+}
+.socials {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+}
 
 
